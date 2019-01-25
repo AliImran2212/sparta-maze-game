@@ -21,13 +21,11 @@
       background-color: black;
       color: black
   }
-
   .square {
     height: 30px;
     width: 250px;
     background-color: red;
   }
-    
   .win {
     background: url('sea-cave.png');
     border: 0px ;
@@ -70,17 +68,4 @@ a {
     text-decoration: none;
     color: white;
 }
-  /* .box1 {
-      
-      /* width: 100%;
-      height: 100%; */
-  /* } */ 
-  
-    /* #verticle-line {
-        width: 1px;
-        min-height: 400px;
-        background: red;  
-        margin:15px;  
-        float:left
-        } */
     
