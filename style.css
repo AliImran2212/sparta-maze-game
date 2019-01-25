@@ -1,0 +1,86 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 255px 45px 255px 45px 255px 45px 255px 45px 255px 45px;
+    padding: 1px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .grid-item {
+    background-color: wheat;
+    border: 0px ;
+    padding: 15px;
+    font-size: 10px;
+    text-align: center;
+    color: wheat;
+    cursor: url('batman.png'), auto;
+    /* margin: 15px; */
+  }
+
+  .fill {
+      background-color: black;
+      color: black
+  }
+
+  .square {
+    height: 30px;
+    width: 250px;
+    background-color: red;
+  }
+    
+  .win {
+    background: url('sea-cave.png');
+    border: 0px ;
+    padding: 15px;
+    font-size: 10px;
+    text-align: center;   
+  }
+  .background {
+      background-color: blue;
+  }
+  h1 {
+      color: whitesmoke;
+      font-size: 50px;
+  }
+  h2 {
+      color: whitesmoke;
+      font-size: 30px;
+  }
+  html {
+    font-family: 'Kanit', sans-serif;
+    height: 100%;
+    width: 100%;
+  }
+  body {
+      background: black;
+      background-image: url('Batman_Vol_2_5_Alternate.jpg');
+      background-size: 70% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+button {
+    position: fixed;
+    z-index: 1;
+    margin-left: 50%;   
+    margin-right: 50%;  
+    background-color: #008CBA; 
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+  /* .box1 {
+      
+      /* width: 100%;
+      height: 100%; */
+  /* } */ 
+  
+    /* #verticle-line {
+        width: 1px;
+        min-height: 400px;
+        background: red;  
+        margin:15px;  
+        float:left
+        } */
+    

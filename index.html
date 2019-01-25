@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maze</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <h1>The Bat Maze!</h1>
+        <h2 id="status">Move your mouse to begin. Goal is to get Batman to his Batcave!</h2>
+
+        <div class="grid-container">
+            <div class="grid-item fill">1</div>
+            <div class="grid-item fill">2</div>
+            <div class="grid-item fill">3</div>
+            <div class="grid-item fill">4</div>
+            <div class="grid-item fill">5</div>
+            <div class="grid-item fill">6</div>
+            <div class="grid-item fill">7</div>
+            <div class="grid-item fill">8</div>
+            <div class="grid-item fill">9</div>
+            <div class="grid-item fill">10</div>
+            <div class="grid-item fill">11</div>
+            <div class="grid-item">12</div>
+            <div class="grid-item fill">13</div>
+            <div class="grid-item">14</div>
+            <div class="grid-item fill">15</div>
+            <div class="grid-item">16</div>
+            <div class="grid-item">17</div>
+            <div class="grid-item">18</div>
+            <div class="grid-item fill">19</div>
+            <div class="grid-item fill">20</div>
+            <div class="grid-item fill">21</div>
+            <div class="grid-item">22</div>
+            <div class="grid-item">23</div>
+            <div class="grid-item">24</div>
+            <div class="grid-item fill">25</div>
+            <div class="grid-item">26</div>
+            <div class="grid-item fill">27</div>
+            <div class="grid-item">28</div>
+            <div class="grid-item fill">29</div>
+            <div class="grid-item win"></div>
+            <div class="grid-item fill">31</div>
+            <div class="grid-item">32</div>
+            <div class="grid-item fill">33</div>
+            <div class="grid-item">34</div>
+            <div class="grid-item fill">35</div>
+            <div class="grid-item">36</div>
+            <div class="grid-item fill">37</div>
+            <div class="grid-item">38</div>
+            <div class="grid-item fill">39</div>
+            <div class="grid-item">40</div>
+            <div class="grid-item fill">41</div>
+            <div class="grid-item">42</div>
+            <div class="grid-item fill">43</div>
+            <div class="grid-item">44</div>
+            <div class="grid-item fill">45</div>
+            <div class="grid-item">46</div>
+            <div class="grid-item fill">47</div>
+            <div class="grid-item">48</div>
+            <div class="grid-item fill">49</div>
+            <div class="grid-item">50</div>
+            <div class="grid-item fill">51</div>
+            <div class="grid-item">52</div>
+            <div class="grid-item fill">53</div>
+            <div class="grid-item">54</div>
+            <div class="grid-item fill">55</div>
+            <div class="grid-item">56</div>
+            <div class="grid-item fill">57</div>
+            <div class="grid-item">58</div>
+            <div class="grid-item fill">59</div>
+            <div class="grid-item">60</div>
+            <div class="grid-item fill">61</div>
+            <div class="grid-item">62</div>
+            <div class="grid-item fill">63</div>
+            <div class="grid-item">64</div>
+            <div class="grid-item fill">65</div>
+            <div class="grid-item">66</div>
+            <div class="grid-item fill">67</div>
+            <div class="grid-item">68</div>
+            <div class="grid-item fill">69</div>
+            <div class="grid-item">70</div>
+            <div class="grid-item fill">71</div>
+            <div class="grid-item">72</div>
+            <div class="grid-item fill">73</div>
+            <div class="grid-item">74</div>
+            <div class="grid-item fill">75</div>
+            <div class="grid-item">76</div>
+            <div class="grid-item fill">77</div>
+            <div class="grid-item">78</div>
+            <div class="grid-item fill">79</div>
+            <div class="grid-item">80</div>
+            <div class="grid-item fill">81</div>
+            <div class="grid-item">82</div>
+            <div class="grid-item fill">83</div>
+            <div class="grid-item">84</div>
+            <div class="grid-item fill">85</div>
+            <div class="grid-item">86</div>
+            <div class="grid-item fill">87</div>
+            <div class="grid-item">88</div>
+            <div class="grid-item fill">89</div>
+            <div class="grid-item">90</div>
+            <div class="grid-item fill">91</div>
+            <div class="grid-item">92</div>
+            <div class="grid-item fill">93</div>
+            <div class="grid-item">94</div>
+            <div class="grid-item fill">95</div>
+            <div class="grid-item">96</div>
+            <div class="grid-item fill">97</div>
+            <div class="grid-item">98</div>
+            <div class="grid-item fill">99</div>
+            <div class="grid-item">100</div>
+            <div class="grid-item fill">101</div>
+            <div class="grid-item">102</div>
+            <div class="grid-item fill">103</div>
+            <div class="grid-item">104</div>
+            <div class="grid-item fill">105</div>
+            <div class="grid-item">106</div>
+            <div class="grid-item fill">107</div>
+            <div class="grid-item">108</div>
+            <div class="grid-item fill">109</div>
+            <div class="grid-item">110</div>
+            <div class="grid-item square"></div>
+            <div class="grid-item">112</div>
+            <div class="grid-item fill">113</div>
+            <div class="grid-item">114</div>
+            <div class="grid-item">115</div>
+            <div class="grid-item">116</div>
+            <div class="grid-item fill">117</div>
+            <div class="grid-item">118</div>
+            <div class="grid-item">119</div>
+            <div class="grid-item">120</div>
+            <div class="grid-item fill">121</div>
+            <div class="grid-item fill">122</div>
+            <div class="grid-item fill">123</div>
+            <div class="grid-item fill">124</div>
+            <div class="grid-item fill">125</div>
+            <div class="grid-item fill">126</div>
+            <div class="grid-item fill">127</div>
+            <div class="grid-item fill">128</div>
+            <div class="grid-item fill">129</div>
+            <div class="grid-item fill">130</div>
+        </div>
+    </div>
+</body>
+</html>
